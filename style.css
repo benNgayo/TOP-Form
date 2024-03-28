@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1f1f1;
+  max-width: 1400px;
+}
+
+.image h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.image,
+.form-container {
+  width: 50%;
+  height: 100vh;
+}
+
+.image {
+  background-image: url("./assets/hot_air_balloon.jpg");
+  background-size: cover;
+  padding: 1rem;
+}
+
+.form-container {
+  padding: 3rem 3rem;
+  font-family: "Poppins", sans-serif;
+}
+form > p:first-child,
+h1,
+.error {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.error {
+  color: #d62e00;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.login-btn,
+input[type="email"],
+input[type="password"] {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+#password:focus,
+#checkbox:focus {
+  border: 1px solid blue;
+}
+.login-btn {
+  background-color: #000;
+  color: #ffffff;
+  font-family: "Poppins";
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+label {
+  color: grey;
+}
+
+input[type="checkbox"] {
+  margin-bottom: 15px;
+}
+a {
+  color: #000;
+  text-decoration: underline;
+}
+.forgot-pass {
+  display: flex;
+  justify-content: right;
+}
+.social-auth {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 15px;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f3f3f3f3;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 3px 15px;
+  width: 150px;
+  -webkit-box-shadow: 10px 10px 5px -11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px -11px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -11px rgba(0, 0, 0, 0.75);
+}
+.socials img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
